@@ -22,11 +22,11 @@ h1 {
 	border-top: 0.05rem solid rgb(155, 154, 154);
 }
 
-.mem-container:active .image {
+.mem-container:hover .image {
 	display: block;
 }
 
-.mem-container:active .icon {
+.mem-container:hover .icon {
 	width: 1rem;
 	height: 1rem;
 	background: url('./img/close.svg	') 0 0/ 1rem no-repeat;
