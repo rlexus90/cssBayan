@@ -19,29 +19,22 @@ h1 {
 }
 
 .mem-container {
-	/* height: 2.5rem; */
 	padding: 0.5rem 0;
 	border-top: 0.05rem solid rgb(155, 154, 154);
 }
 
 
-
-/* .mem-container:focus {
-	height: auto;
-} */
-
 .mem-container:focus .icon {
-	width: 1rem;
-	height: 1rem;
-	background: url('./img/close.svg	') 0 0/ 1rem no-repeat;
-	transition: all 0.3s;
+	transform: rotate(45deg);
+	transition: all 0.4s;
 }
 
 .icon {
 	width: 1rem;
 	height: 1rem;
-	background: url('./img/open.svg') 0 0/ 1rem no-repeat;
-	transition: all 0.3s;
+	background-image: url('./img/open.svg');
+	background-size: 1rem;
+	transition: all 0.4s;
 }
 
 .mem-container:focus .image {
@@ -60,7 +53,6 @@ h1 {
 .image {
 	height: 0;
 	visibility: hidden;
-	/* display: none; */
 }
 
 .text {
@@ -70,12 +62,6 @@ h1 {
 	padding-bottom: 0.5rem;
 
 }
-
-.title {}
-
-
-
-
 
 img {
 	display: block;
@@ -128,9 +114,8 @@ img {
 	}
 
 	.mem-container:hover .icon {
-		width: 1rem;
-		height: 1rem;
-		background: url('./img/close.svg	') 0 0/ 1rem no-repeat;
+		transform: rotate(45deg);
+		transition: all 0.4s;
 	}
 
 	.mem-container:hover .image {
